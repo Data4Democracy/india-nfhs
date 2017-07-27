@@ -78,3 +78,5 @@ privately (data.world or Dropbox?).
 
 * Luke will put up some of the metadata for the NFHS-3 household
   questionnaire in a folder.  How to share the full dataset?
+
+***
