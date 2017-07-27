@@ -76,7 +76,6 @@ privately (data.world or Dropbox?).
   generate new questions.  The eight questions 101--108 are related to
   women's empowerment.
 
-* Luke will put up some of the metadata for the NFHS-3 household
-  questionnaire in a folder.  How to share the full dataset?
+* The nfhs-3-metadata folder has some metadata for the NFHS-3 household
+  questionnaire.  Stay tuned for access to full dataset (data.world or Dropbox?)
 
-***
