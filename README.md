@@ -36,8 +36,7 @@ this year".  At the moment, state-level and county-level data is
 The NFHS-3, conducted 2005-2006, is [available in full](http://www.dhsprogram.com/what-we-do/survey/survey-display-264.cfm) from the Demographic and Health Surveys (DHS) program.  So are the two earler NFHSs.
 The datasets come from three questionnaires: [female](http://rchiips.org/NFHS/NFHS4/schedules/NFHS-4Womans.pdf), [male](http://rchiips.org/NFHS/NFHS4/schedules/NFHS-4Mans.pdf), and
 [household](http://rchiips.org/NFHS/NFHS4/schedules/NFHS-4Household.pdf).  One must register to use this
-data, so we can't put it up on a public repo but the team can share it
-privately (data.world or Dropbox?).
+data, so we can't put it up on a public repo.  Instead, it lives in a private dataset on the [D4D data.world site](https://data.world/data4democracy).   You are encouraged to contact [@lukewolcott](https://datafordemocracy.slack.com/messages/@lukewolcott/) through Slack to get access to this dataset.
 
 ## Possible questions to pursue:
 
@@ -68,6 +67,8 @@ privately (data.world or Dropbox?).
 
 * What would you like to know?
 
+* (Peruse the Slack channel for other suggestions, too...)
+
 ## First steps:
 
 * For now, the factsheets folder has the 37 state-level factsheet PDFs
@@ -77,5 +78,5 @@ privately (data.world or Dropbox?).
   women's empowerment.
 
 * The nfhs-3-metadata folder has some metadata for the NFHS-3 household
-  questionnaire.  Stay tuned for access to full dataset (data.world or Dropbox?)
+  questionnaire.  To access the data, contact @lukewolcott and he'll send you an invitation to the data.world site.
 
