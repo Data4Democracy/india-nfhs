@@ -50,5 +50,6 @@ The **NFHS-3**, conducted 2005-2006, is [available in full](http://www.dhsprogra
 
 * Download Debarghya Das's scrape of the district-level data, `nfhs-district-level.csv`, and dive in!  [He has generated some heatmaps](http://debarghyadas.com/writes/nfhs-4/) with some of the gender-related variables, and this is a good start for generating new questions to ask the data.  Questions 101--108 in the data are related to women's empowerment.
 
-* The `nfhs-3-metadata` folder has some metadata for the NFHS-3 household questionnaire.  To access the data, contact @lukewolcott and he'll send you an invitation to the data.world site.
+* The `nfhs3-metadata` folder has some metadata for the NFHS-3 household questionnaire.  To access the data, contact @lukewolcott and he'll send you an invitation to the data.world site.
 
+* The `nfhs3-analysis` folder has some initial exploratory plots, and a jupyter notebook with some exploratory data analysis.
