@@ -4,6 +4,8 @@
 
 - [EDA-lukewolcott.ipynb](http://nbviewer.jupyter.org/github/lukewolcott/india-nfhs/blob/master/nfhs3-analysis/EDA-lukewolcott.ipynb): a notebook with initial exploratory data analysis and plots for NFHS-3, by Luke Wolcott
 
+- [Predicting-HV219-LW.ipynb](http://nbviewer.jupyter.org/github/lukewolcott/india-nfhs/blob/master/nfhs3-analysis/Predicting-HV219-LW.ipynb): first attempt to predict sex of household head, using simple decision trees, by Luke Wolcott
+
 ### Images
 
 - `HV009byHV219_cut.png`: "Number of listed household members" by sex of HH head, as percentage
