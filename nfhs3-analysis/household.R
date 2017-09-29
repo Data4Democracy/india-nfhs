@@ -306,3 +306,73 @@ summary(LTownH$HV214)
 summary(MCityH$HV214)
 summary(STownH$HV214)
 
+#Main roof material
+summary(RuralH$HV215)
+summary(SCityH$HV215)
+summary(LCityH$HV215)
+summary(LTownH$HV215)
+summary(MCityH$HV215)
+summary(STownH$HV215)
+
+#Windows
+summary(RuralH$SH56A)
+summary(SCityH$SH56A)
+summary(LCityH$SH56A)
+summary(LTownH$SH56A)
+summary(MCityH$SH56A)
+summary(STownH$SH56A)
+
+#Glass windows
+summary(RuralH$SH56B)
+summary(SCityH$SH56B)
+summary(LCityH$SH56B)
+summary(LTownH$SH56B)
+summary(MCityH$SH56B)
+summary(STownH$SH56B)
+
+#Window screens
+summary(RuralH$SH56C)
+summary(SCityH$SH56C)
+summary(LCityH$SH56C)
+summary(LTownH$SH56C)
+summary(MCityH$SH56C)
+summary(STownH$SH56C)
+
+#Window with curtain or shutters
+summary(RuralH$SH56D)
+summary(SCityH$SH56D)
+summary(LCityH$SH56D)
+summary(LTownH$SH56D)
+summary(MCityH$SH56D)
+summary(STownH$SH56D)
+
+#Number of people sleeping per room
+summary(RuralH$HV012/RuralH$HV216)
+summary(SCityH$HV012/SCityH$HV216)
+summary(LCityH$HV012/LCityH$HV216)
+summary(LTownH$HV012/LTownH$HV216)
+summary(MCityH$HV012/MCityH$HV216)
+summary(STownH$HV012/STownH$HV216)
+summary(UrbanH$HV012/UrbanH$HV216)
+
+#House ownership
+summary(RuralH$SH58)
+summary(SCityH$SH58)
+summary(LCityH$SH58)
+summary(LTownH$SH58)
+summary(MCityH$SH58)
+summary(STownH$SH58)
+
+#Household has bank or post office account
+summary(RuralH$HV247)
+summary(SCityH$HV247)
+summary(LCityH$HV247)
+summary(LTownH$HV247)
+summary(MCityH$HV247)
+summary(STownH$HV247)
+
+
+
+
+
+
