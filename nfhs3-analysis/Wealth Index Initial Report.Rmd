@@ -14,7 +14,9 @@ library(rmarkdown)
 library(knitr)
 ```
 # Introduction
-The NFHS-3 has created a wealth index and a standard of living index. The wealth index shows how a household is performing economically based on the articles owned by the household, when compared to the rest of the country. The index provided (you can read more about it in `NFHS3SUP.pdf` on the github repo) is a general index created without taking the geographical location into account. In this project, I'm going to explore the NFHS-3 data to see if taking geographic location of the household into consideration will have a significant change on the way we look at the wealth index.
+The NFHS-3 is the third National Facility and Household Survey, conducted jointly by multiple organisations. The DHS program (The Demography and Health survey program) uses the data collected from this survey to build a wealth index. Most of the details related to this index are in the `NFHS3SUP.pdf` file in the github repo. In this file you will notice that there is a wealth index and a standard of living index. Both these indexes are mostly similar, with a small number of differences. I didn't quite get the point of having 2 separate indexes, which are almost similar, so I'm focusing on the wealth index inn this report. I'll also talk about the variables that are not included in the wealth index, but are part of the standard of living index.
+
+The wealth index shows how a household is performing economically based on the articles owned by the household, when compared to the rest of the country. The index provided (you can read more about it in `NFHS3SUP.pdf` on the github repo) is a general index created without taking the geographical location into account. In this project, I'm going to explore the NFHS-3 data to see if taking geographic location of the household into consideration will have a significant change on the way we look at the wealth index.
 
 # Variables that capture geographic pointers.
 ```{r geographic variables, eval=FALSE, echo=TRUE}
@@ -55,7 +57,7 @@ STownH <- subset(household, SH025 == 'Small town')
 
 # Analyse the Wealth Index variables of each subset.
 
-The wealth index captures data on a number of household articles and other things like construction material of the house, automobile ownership. We will look at each of these  and their ownership trends based on geographic location.
+The wealth index captures data on a number of household articles and other things like construction material of the house, automobile ownership. We will look at each of these and their ownership trends based on geographic location.
 
 ## Drinking water source.
 ```{r Drinking water, eval=FALSE, echo=TRUE}
@@ -456,3 +458,8 @@ summary(MCityH$HV247)
 summary(STownH$HV247)
 ```
 Most households don't have the kind of income which generate savings that can be put in an account. Until a year ago, having an account didn't make any sense for poor households. Even among households with better income, most people preferred to invest the savings in gold or purchasing land or other such things. I guess people would have also found it a hassle to handle a bank account. More than wealth, ownership of a bank account is probably a better indicator of education. It is still probably useful to have this as a wealth indicator, but its usefulness and importance compared to other variables is questionable.
+
+## Other variables
+There are   variables in the standard of living index that are not present in the wealth index and would probably be a good idea if they are included. They are 'Shares toilet with other households (HV225)', 'Separate room for cooking (HV242)', 'Own agricultural land (SH60)', 'Ownership of irrigated land (SH61)' and 'Ownership of livestock (HV246)'.
+
+Among these variables HV225 and HV242 are  very strong and reliable indicators of wealth, whereas the value of SH60, SH61 and HV246 would depend on the number of people who are dependent on the property and would inherit it.
