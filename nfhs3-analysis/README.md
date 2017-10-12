@@ -2,9 +2,9 @@
 
 ### Jupyter notebooks
 
-- [EDA-lukewolcott.ipynb](http://nbviewer.jupyter.org/github/lukewolcott/india-nfhs/blob/master/nfhs3-analysis/EDA-lukewolcott.ipynb): a notebook with initial exploratory data analysis and plots for NFHS-3, by Luke Wolcott
+- [EDA-lukewolcott.ipynb](http://nbviewer.jupyter.org/github/Data4Democracy/india-nfhs/blob/master/nfhs3-analysis/EDA-lukewolcott.ipynb): a notebook with initial exploratory data analysis and plots for NFHS-3, by Luke Wolcott
 
-- [Predicting-HV219-LW.ipynb](http://nbviewer.jupyter.org/github/lukewolcott/india-nfhs/blob/master/nfhs3-analysis/Predicting-HV219-LW.ipynb): first attempt to predict sex of household head, using simple decision trees, by Luke Wolcott
+- [Predicting-HV219.ipynb](http://nbviewer.jupyter.org/github/Data4Democracy/india-nfhs/blob/master/nfhs3-analysis/Predicting-HV219.ipynb): using decision trees, random forests to predict sex of household head.
 
 ### Images
 
