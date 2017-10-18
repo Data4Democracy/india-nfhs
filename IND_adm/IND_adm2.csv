@@ -1,0 +1,595 @@
+"OBJECTID","ID_0","ISO","NAME_0","ID_1","NAME_1","ID_2","NAME_2","TYPE_2","ENGTYPE_2","NL_NAME_2","VARNAME_2"
+1,105,"IND","India",1,"Andaman and Nicobar",1,"Andaman Islands","District","District",NA,NA
+2,105,"IND","India",1,"Andaman and Nicobar",2,"Nicobar Islands","District","District",NA,NA
+3,105,"IND","India",2,"Andhra Pradesh",3,"Anantapur","District","District",NA,"Anantpur, Ananthapur"
+4,105,"IND","India",2,"Andhra Pradesh",4,"Chittoor","District","District",NA,"Chitoor|Chittor"
+5,105,"IND","India",2,"Andhra Pradesh",5,"Cuddapah","District","District",NA,NA
+6,105,"IND","India",2,"Andhra Pradesh",6,"East Godavari","District","District",NA,NA
+7,105,"IND","India",2,"Andhra Pradesh",7,"Guntur","District","District",NA,NA
+8,105,"IND","India",2,"Andhra Pradesh",8,"Krishna","District","District",NA,"Kistna"
+9,105,"IND","India",2,"Andhra Pradesh",9,"Kurnool","District","District",NA,NA
+10,105,"IND","India",2,"Andhra Pradesh",10,"Nellore","District","District",NA,NA
+11,105,"IND","India",2,"Andhra Pradesh",11,"Prakasam","District","District",NA,NA
+12,105,"IND","India",2,"Andhra Pradesh",12,"Srikakulam","District","District",NA,"Srikakulum"
+13,105,"IND","India",2,"Andhra Pradesh",13,"Vishakhapatnam","District","District",NA,"Fisakapatnam|Vizagapatam|Visakhapatnam"
+14,105,"IND","India",2,"Andhra Pradesh",14,"Vizianagaram","District","District",NA,"Vizianagram"
+15,105,"IND","India",2,"Andhra Pradesh",15,"West Godavari","District","District",NA,NA
+16,105,"IND","India",3,"Arunachal Pradesh",16,"Changlang","District","District",NA,NA
+17,105,"IND","India",3,"Arunachal Pradesh",17,"East Kameng","District","District",NA,NA
+18,105,"IND","India",3,"Arunachal Pradesh",18,"East Siang","District","District",NA,NA
+19,105,"IND","India",3,"Arunachal Pradesh",19,"Kurung Kumey","District","District",NA,NA
+20,105,"IND","India",3,"Arunachal Pradesh",20,"Lohit","District","District",NA,"Lohit Frontier Division"
+21,105,"IND","India",3,"Arunachal Pradesh",21,"Lower Dibang Valley","District","District",NA,NA
+22,105,"IND","India",3,"Arunachal Pradesh",22,"Lower Subansiri","District","District",NA,NA
+23,105,"IND","India",3,"Arunachal Pradesh",23,"Papum Pare","District","District",NA,NA
+24,105,"IND","India",3,"Arunachal Pradesh",24,"Tawang","District","District",NA,NA
+25,105,"IND","India",3,"Arunachal Pradesh",25,"Tirap","District","District",NA,"Tirap Frontier Tract"
+26,105,"IND","India",3,"Arunachal Pradesh",26,"Upper Dibang Valley","District","District",NA,NA
+27,105,"IND","India",3,"Arunachal Pradesh",27,"Upper Siang","District","District",NA,NA
+28,105,"IND","India",3,"Arunachal Pradesh",28,"Upper Subansiri","District","District",NA,NA
+29,105,"IND","India",3,"Arunachal Pradesh",29,"West Kameng","District","District",NA,NA
+30,105,"IND","India",3,"Arunachal Pradesh",30,"West Siang","District","District",NA,NA
+31,105,"IND","India",4,"Assam",31,"Barpeta","District","District",NA,NA
+32,105,"IND","India",4,"Assam",32,"Bongaigaon","District","District",NA,NA
+33,105,"IND","India",4,"Assam",33,"Cachar","District","District",NA,NA
+34,105,"IND","India",4,"Assam",34,"Darrang","District","District",NA,NA
+35,105,"IND","India",4,"Assam",35,"Dhemaji","District","District",NA,NA
+36,105,"IND","India",4,"Assam",36,"Dhuburi","District","District",NA,NA
+37,105,"IND","India",4,"Assam",37,"Dibrugarh","District","District",NA,NA
+38,105,"IND","India",4,"Assam",38,"Goalpara","District","District",NA,NA
+39,105,"IND","India",4,"Assam",39,"Golaghat","District","District",NA,NA
+40,105,"IND","India",4,"Assam",40,"Hailakandi","District","District",NA,NA
+41,105,"IND","India",4,"Assam",41,"Jorhat","District","District",NA,NA
+42,105,"IND","India",4,"Assam",42,"Kamrup","District","District",NA,"Kampur, Ramrup"
+43,105,"IND","India",4,"Assam",43,"Karbi Anglong","District","District",NA,"Mikir Hills , Korbi Anglong"
+44,105,"IND","India",4,"Assam",44,"Karimganj","District","District",NA,NA
+45,105,"IND","India",4,"Assam",45,"Kokrajhar","District","District",NA,NA
+46,105,"IND","India",4,"Assam",46,"Lakhimpur","District","District",NA,"North Lakhimpur, Lakhmipur, Lakimpur"
+47,105,"IND","India",4,"Assam",47,"Marigaon","District","District",NA,NA
+48,105,"IND","India",4,"Assam",48,"Nagaon","District","District",NA,"Nowgong"
+49,105,"IND","India",4,"Assam",49,"Nalbari","District","District",NA,NA
+50,105,"IND","India",4,"Assam",50,"North Cachar Hills","District","District",NA,NA
+51,105,"IND","India",4,"Assam",51,"Sibsagar","District","District",NA,"Sivasagar"
+52,105,"IND","India",4,"Assam",52,"Sonitpur","District","District",NA,"Sontipur"
+53,105,"IND","India",4,"Assam",53,"Tinsukia","District","District",NA,NA
+54,105,"IND","India",5,"Bihar",54,"Araria","District","District",NA,NA
+55,105,"IND","India",5,"Bihar",55,"Aurangabad","District","District",NA,NA
+56,105,"IND","India",5,"Bihar",56,"Banka","District","District",NA,NA
+57,105,"IND","India",5,"Bihar",57,"Begusarai","District","District",NA,NA
+58,105,"IND","India",5,"Bihar",58,"Bhabua","District","District",NA,"Kaimur"
+59,105,"IND","India",5,"Bihar",59,"Bhagalpur","District","District",NA,"Bhagaipur"
+60,105,"IND","India",5,"Bihar",60,"Bhojpur","District","District",NA,NA
+61,105,"IND","India",5,"Bihar",61,"Buxar","District","District",NA,NA
+62,105,"IND","India",5,"Bihar",62,"Darbhanga","District","District",NA,NA
+63,105,"IND","India",5,"Bihar",63,"Gaya","District","District",NA,NA
+64,105,"IND","India",5,"Bihar",64,"Gopalganj","District","District",NA,NA
+65,105,"IND","India",5,"Bihar",65,"Jamui","District","District",NA,"Zamui"
+66,105,"IND","India",5,"Bihar",66,"Jehanabad","District","District",NA,NA
+67,105,"IND","India",5,"Bihar",67,"Katihar","District","District",NA,"Kathihar"
+68,105,"IND","India",5,"Bihar",68,"Khagaria","District","District",NA,NA
+69,105,"IND","India",5,"Bihar",69,"Kishanganj","District","District",NA,NA
+70,105,"IND","India",5,"Bihar",70,"Lakhisarai","District","District",NA,NA
+71,105,"IND","India",5,"Bihar",71,"Madhepura","District","District",NA,"Madhipura"
+72,105,"IND","India",5,"Bihar",72,"Madhubani","District","District",NA,NA
+73,105,"IND","India",5,"Bihar",73,"Munger","District","District",NA,"Monghyr"
+74,105,"IND","India",5,"Bihar",74,"Muzaffarpur","District","District",NA,"Muzafarpur"
+75,105,"IND","India",5,"Bihar",75,"Nalanda","District","District",NA,NA
+76,105,"IND","India",5,"Bihar",76,"Nawada","District","District",NA,"Nawadah"
+77,105,"IND","India",5,"Bihar",77,"Pashchim Champaran","District","District",NA,"West Champaran, Paschimi Champaran, Paschim-Champaram"
+78,105,"IND","India",5,"Bihar",78,"Patna","District","District",NA,NA
+79,105,"IND","India",5,"Bihar",79,"Purba Champaran","District","District",NA,"East Champaran, Purbi Champaran, Purba Champaram"
+80,105,"IND","India",5,"Bihar",80,"Purnia","District","District",NA,"Purnea"
+81,105,"IND","India",5,"Bihar",81,"Rohtas","District","District",NA,NA
+82,105,"IND","India",5,"Bihar",82,"Saharsa","District","District",NA,NA
+83,105,"IND","India",5,"Bihar",83,"Samastipur","District","District",NA,NA
+84,105,"IND","India",5,"Bihar",84,"Saran","District","District",NA,NA
+85,105,"IND","India",5,"Bihar",85,"Sheikhpura","District","District",NA,NA
+86,105,"IND","India",5,"Bihar",86,"Sheohar","District","District",NA,NA
+87,105,"IND","India",5,"Bihar",87,"Sitamarhi","District","District",NA,NA
+88,105,"IND","India",5,"Bihar",88,"Siwan","District","District",NA,"Sivan"
+89,105,"IND","India",5,"Bihar",89,"Supaul","District","District",NA,NA
+90,105,"IND","India",5,"Bihar",90,"Vaishali","District","District",NA,NA
+91,105,"IND","India",6,"Chandigarh",91,"Chandigarh","District","District",NA,NA
+92,105,"IND","India",7,"Chhattisgarh",92,"Bastar","District","District",NA,"Baster"
+93,105,"IND","India",7,"Chhattisgarh",93,"Bilaspur","District","District",NA,NA
+94,105,"IND","India",7,"Chhattisgarh",94,"Dantewada","District","District",NA,NA
+95,105,"IND","India",7,"Chhattisgarh",95,"Dhamtari","District","District",NA,NA
+96,105,"IND","India",7,"Chhattisgarh",96,"Durg","District","District",NA,NA
+97,105,"IND","India",7,"Chhattisgarh",97,"Janjgir-Champa","District","District",NA,"Janjgir"
+98,105,"IND","India",7,"Chhattisgarh",98,"Jashpur","District","District",NA,NA
+99,105,"IND","India",7,"Chhattisgarh",99,"Kanker","District","District",NA,NA
+100,105,"IND","India",7,"Chhattisgarh",100,"Kawardha","District","District",NA,NA
+101,105,"IND","India",7,"Chhattisgarh",101,"Korba","District","District",NA,NA
+102,105,"IND","India",7,"Chhattisgarh",102,"Koriya","District","District",NA,NA
+103,105,"IND","India",7,"Chhattisgarh",103,"Mahasamund","District","District",NA,NA
+104,105,"IND","India",7,"Chhattisgarh",104,"Raigarh","District","District",NA,NA
+105,105,"IND","India",7,"Chhattisgarh",105,"Raipur","District","District",NA,NA
+106,105,"IND","India",7,"Chhattisgarh",106,"Raj Nandgaon","District","District",NA,NA
+107,105,"IND","India",7,"Chhattisgarh",107,"Surguja","District","District",NA,NA
+108,105,"IND","India",8,"Dadra and Nagar Haveli",108,"Dadra and Nagar Haveli","District","District",NA,NA
+109,105,"IND","India",9,"Daman and Diu",109,"Daman","District","District",NA,NA
+110,105,"IND","India",9,"Daman and Diu",110,"Junagadh","District","District",NA,NA
+111,105,"IND","India",10,"Delhi",111,"Delhi","District","District",NA,NA
+112,105,"IND","India",11,"Goa",112,"North Goa","District","District",NA,NA
+113,105,"IND","India",11,"Goa",113,"South Goa","District","District",NA,NA
+114,105,"IND","India",12,"Gujarat",114,"Ahmadabad","District","District",NA,NA
+115,105,"IND","India",12,"Gujarat",115,"Amreli","District","District",NA,"Amereli"
+116,105,"IND","India",12,"Gujarat",116,"Anand","District","District",NA,NA
+117,105,"IND","India",12,"Gujarat",117,"Banas Kantha","District","District",NA,"Banaskantha, Palanpur"
+118,105,"IND","India",12,"Gujarat",118,"Bharuch","District","District",NA,NA
+119,105,"IND","India",12,"Gujarat",119,"Bhavnagar","District","District",NA,"Bhaunagar"
+120,105,"IND","India",12,"Gujarat",120,"Dahod","District","District",NA,"Dohad"
+121,105,"IND","India",12,"Gujarat",121,"Gandhinagar","District","District",NA,NA
+122,105,"IND","India",12,"Gujarat",122,"Jamnagar","District","District",NA,NA
+123,105,"IND","India",12,"Gujarat",123,"Junagadh","District","District",NA,NA
+124,105,"IND","India",12,"Gujarat",124,"Kachchh","District","District",NA,"Kutch"
+125,105,"IND","India",12,"Gujarat",125,"Kheda","District","District",NA,"Kaira"
+126,105,"IND","India",12,"Gujarat",126,"Mahesana","District","District",NA,"Mehasana, Mehsana"
+127,105,"IND","India",12,"Gujarat",127,"Narmada","District","District",NA,NA
+128,105,"IND","India",12,"Gujarat",128,"Navsari","District","District",NA,NA
+129,105,"IND","India",12,"Gujarat",129,"Panch Mahals","District","District",NA,"Godhra, Panchmahal"
+130,105,"IND","India",12,"Gujarat",130,"Patan","District","District",NA,NA
+131,105,"IND","India",12,"Gujarat",131,"Porbandar","District","District",NA,NA
+132,105,"IND","India",12,"Gujarat",132,"Rajkot","District","District",NA,NA
+133,105,"IND","India",12,"Gujarat",133,"Sabar Kantha","District","District",NA,"Sabarkantha, Himatnagar"
+134,105,"IND","India",12,"Gujarat",134,"Surat","District","District",NA,NA
+135,105,"IND","India",12,"Gujarat",135,"Surendranagar","District","District",NA,NA
+136,105,"IND","India",12,"Gujarat",136,"The Dangs","District","District",NA,"Dangs"
+137,105,"IND","India",12,"Gujarat",137,"Vadodara","District","District",NA,"Baroda"
+138,105,"IND","India",12,"Gujarat",138,"Valsad","District","District",NA,"Bulsar|Walsad"
+139,105,"IND","India",13,"Haryana",139,"Ambala","District","District",NA,NA
+140,105,"IND","India",13,"Haryana",140,"Bhiwani","District","District",NA,NA
+141,105,"IND","India",13,"Haryana",141,"Faridabad","District","District",NA,NA
+142,105,"IND","India",13,"Haryana",142,"Fatehabad","District","District",NA,NA
+143,105,"IND","India",13,"Haryana",143,"Gurgaon","District","District",NA,NA
+144,105,"IND","India",13,"Haryana",144,"Hisar","District","District",NA,NA
+145,105,"IND","India",13,"Haryana",145,"Jhajjar","District","District",NA,NA
+146,105,"IND","India",13,"Haryana",146,"Jind","District","District",NA,NA
+147,105,"IND","India",13,"Haryana",147,"Kaithal","District","District",NA,NA
+148,105,"IND","India",13,"Haryana",148,"Karnal","District","District",NA,NA
+149,105,"IND","India",13,"Haryana",149,"Kurukshetra","District","District",NA,NA
+150,105,"IND","India",13,"Haryana",150,"Mahendragarh","District","District",NA,"Mahendergarh, Mahendragarth, Mohindargarh, Mohindergarh"
+151,105,"IND","India",13,"Haryana",151,"Panchkula","District","District",NA,NA
+152,105,"IND","India",13,"Haryana",152,"Panipat","District","District",NA,NA
+153,105,"IND","India",13,"Haryana",153,"Rewari","District","District",NA,NA
+154,105,"IND","India",13,"Haryana",154,"Rohtak","District","District",NA,NA
+155,105,"IND","India",13,"Haryana",155,"Sirsa","District","District",NA,"Sirasa"
+156,105,"IND","India",13,"Haryana",156,"Sonepat","District","District",NA,"Sonipat"
+157,105,"IND","India",13,"Haryana",157,"Yamuna Nagar","District","District",NA,NA
+158,105,"IND","India",14,"Himachal Pradesh",158,"Bilaspur","District","District",NA,NA
+159,105,"IND","India",14,"Himachal Pradesh",159,"Chamba","District","District",NA,NA
+160,105,"IND","India",14,"Himachal Pradesh",160,"Hamirpur","District","District",NA,NA
+161,105,"IND","India",14,"Himachal Pradesh",161,"Kangra","District","District",NA,NA
+162,105,"IND","India",14,"Himachal Pradesh",162,"Kinnaur","District","District",NA,"Kalpa"
+163,105,"IND","India",14,"Himachal Pradesh",163,"Kullu","District","District",NA,NA
+164,105,"IND","India",14,"Himachal Pradesh",164,"Lahul and Spiti","District","District",NA,NA
+165,105,"IND","India",14,"Himachal Pradesh",165,"Mandi","District","District",NA,NA
+166,105,"IND","India",14,"Himachal Pradesh",166,"Shimla","District","District",NA,"Simla"
+167,105,"IND","India",14,"Himachal Pradesh",167,"Sirmaur","District","District",NA,"Sirmour|Sirmoor|Sirmur"
+168,105,"IND","India",14,"Himachal Pradesh",168,"Solan","District","District",NA,NA
+169,105,"IND","India",14,"Himachal Pradesh",169,"Una","District","District",NA,NA
+170,105,"IND","India",15,"Jammu and Kashmir",170,"Anantnag (Kashmir South)","District","District",NA,NA
+171,105,"IND","India",15,"Jammu and Kashmir",171,"Bagdam","District","District",NA,NA
+172,105,"IND","India",15,"Jammu and Kashmir",172,"Baramula (Kashmir North)","District","District",NA,NA
+173,105,"IND","India",15,"Jammu and Kashmir",173,"Doda","District","District",NA,NA
+174,105,"IND","India",15,"Jammu and Kashmir",174,"Jammu","District","District",NA,NA
+175,105,"IND","India",15,"Jammu and Kashmir",175,"Kargil","District","District",NA,NA
+176,105,"IND","India",15,"Jammu and Kashmir",176,"Kathua","District","District",NA,NA
+177,105,"IND","India",15,"Jammu and Kashmir",177,"Kupwara (Muzaffarabad)","District","District",NA,NA
+178,105,"IND","India",15,"Jammu and Kashmir",178,"Ladakh (Leh)","District","District",NA,NA
+179,105,"IND","India",15,"Jammu and Kashmir",179,"Pulwama","District","District",NA,NA
+180,105,"IND","India",15,"Jammu and Kashmir",180,"Punch","District","District",NA,NA
+181,105,"IND","India",15,"Jammu and Kashmir",181,"Rajauri","District","District",NA,NA
+182,105,"IND","India",15,"Jammu and Kashmir",182,"Srinagar","District","District",NA,NA
+183,105,"IND","India",15,"Jammu and Kashmir",183,"Udhampur","District","District",NA,NA
+184,105,"IND","India",16,"Jharkhand",184,"Bokaro","District","District",NA,NA
+185,105,"IND","India",16,"Jharkhand",185,"Chatra","District","District",NA,NA
+186,105,"IND","India",16,"Jharkhand",186,"Deoghar","District","District",NA,"Devghar"
+187,105,"IND","India",16,"Jharkhand",187,"Dhanbad","District","District",NA,NA
+188,105,"IND","India",16,"Jharkhand",188,"Dumka","District","District",NA,"Santhal Pargana, Santal Parganas"
+189,105,"IND","India",16,"Jharkhand",189,"Garhwa","District","District",NA,NA
+190,105,"IND","India",16,"Jharkhand",190,"Giridih","District","District",NA,NA
+191,105,"IND","India",16,"Jharkhand",191,"Godda","District","District",NA,"Goodda"
+192,105,"IND","India",16,"Jharkhand",192,"Gumla","District","District",NA,NA
+193,105,"IND","India",16,"Jharkhand",193,"Hazaribag","District","District",NA,NA
+194,105,"IND","India",16,"Jharkhand",194,"Jamtara","District","District",NA,NA
+195,105,"IND","India",16,"Jharkhand",195,"Koderma","District","District",NA,NA
+196,105,"IND","India",16,"Jharkhand",196,"Latehar","District","District",NA,NA
+197,105,"IND","India",16,"Jharkhand",197,"Lohardaga","District","District",NA,"Lohargada"
+198,105,"IND","India",16,"Jharkhand",198,"Pakur","District","District",NA,NA
+199,105,"IND","India",16,"Jharkhand",199,"Palamu","District","District",NA,NA
+200,105,"IND","India",16,"Jharkhand",200,"Pashchim Singhbhum","District","District",NA,"Singhbhum West"
+201,105,"IND","India",16,"Jharkhand",201,"Purba Singhbhum","District","District",NA,"Singhbhum East"
+202,105,"IND","India",16,"Jharkhand",202,"Ranchi","District","District",NA,NA
+203,105,"IND","India",16,"Jharkhand",203,"Sahibganj","District","District",NA,NA
+204,105,"IND","India",16,"Jharkhand",204,"Saraikela Kharsawan","District","District",NA,NA
+205,105,"IND","India",16,"Jharkhand",205,"Simdega","District","District",NA,NA
+206,105,"IND","India",17,"Karnataka",206,"Bagalkot","District","District",NA,NA
+207,105,"IND","India",17,"Karnataka",207,"Bangalore Rural","District","District",NA,NA
+208,105,"IND","India",17,"Karnataka",208,"Bangalore Urban","District","District",NA,NA
+209,105,"IND","India",17,"Karnataka",209,"Belgaum","District","District",NA,NA
+210,105,"IND","India",17,"Karnataka",210,"Bellary","District","District",NA,NA
+211,105,"IND","India",17,"Karnataka",211,"Bidar","District","District",NA,NA
+212,105,"IND","India",17,"Karnataka",212,"Bijapur","District","District",NA,NA
+213,105,"IND","India",17,"Karnataka",213,"Chamrajnagar","District","District",NA,NA
+214,105,"IND","India",17,"Karnataka",214,"Chikmagalur","District","District",NA,"Chikmaglur|Kadur"
+215,105,"IND","India",17,"Karnataka",215,"Chitradurga","District","District",NA,"Chitaldroog|Chitaldrug"
+216,105,"IND","India",17,"Karnataka",216,"Dakshin Kannad","District","District",NA,NA
+217,105,"IND","India",17,"Karnataka",217,"Davanagere","District","District",NA,NA
+218,105,"IND","India",17,"Karnataka",218,"Dharwad","District","District",NA,"Dhawad, Dharwar"
+219,105,"IND","India",17,"Karnataka",219,"Gadag","District","District",NA,NA
+220,105,"IND","India",17,"Karnataka",220,"Gulbarga","District","District",NA,NA
+221,105,"IND","India",17,"Karnataka",221,"Hassan","District","District",NA,NA
+222,105,"IND","India",17,"Karnataka",222,"Haveri","District","District",NA,NA
+223,105,"IND","India",17,"Karnataka",223,"Kodagu","District","District",NA,"Coorg"
+224,105,"IND","India",17,"Karnataka",224,"Kolar","District","District",NA,NA
+225,105,"IND","India",17,"Karnataka",225,"Koppal","District","District",NA,NA
+226,105,"IND","India",17,"Karnataka",226,"Mandya","District","District",NA,NA
+227,105,"IND","India",17,"Karnataka",227,"Mysore","District","District",NA,NA
+228,105,"IND","India",17,"Karnataka",228,"Raichur","District","District",NA,NA
+229,105,"IND","India",17,"Karnataka",229,"Shimoga","District","District",NA,NA
+230,105,"IND","India",17,"Karnataka",230,"Tumkur","District","District",NA,NA
+231,105,"IND","India",17,"Karnataka",231,"Udupi","District","District",NA,NA
+232,105,"IND","India",17,"Karnataka",232,"Uttar Kannand","District","District",NA,NA
+233,105,"IND","India",18,"Kerala",233,"Alappuzha","District","District",NA,"Alleppey"
+234,105,"IND","India",18,"Kerala",234,"Ernakulam","District","District",NA,NA
+235,105,"IND","India",18,"Kerala",235,"Idukki","District","District",NA,"Idikki"
+236,105,"IND","India",18,"Kerala",236,"Kannur","District","District",NA,"Cannanore"
+237,105,"IND","India",18,"Kerala",237,"Kasaragod","District","District",NA,NA
+238,105,"IND","India",18,"Kerala",238,"Kollam","District","District",NA,"Quilon"
+239,105,"IND","India",18,"Kerala",239,"Kottayam","District","District",NA,NA
+240,105,"IND","India",18,"Kerala",240,"Kozhikode","District","District",NA,"Calicut"
+241,105,"IND","India",18,"Kerala",241,"Malappuram","District","District",NA,NA
+242,105,"IND","India",18,"Kerala",242,"Palakkad","District","District",NA,"Palghat"
+243,105,"IND","India",18,"Kerala",243,"Pattanamtitta","District","District",NA,NA
+244,105,"IND","India",18,"Kerala",244,"Thiruvananthapuram","District","District",NA,"Trivandrum"
+245,105,"IND","India",18,"Kerala",245,"Thrissur","District","District",NA,"Trichur"
+246,105,"IND","India",18,"Kerala",246,"Wayanad","District","District",NA,"Wynaad|Wynad"
+247,105,"IND","India",19,"Lakshadweep",247,"Kavaratti","District","District",NA,NA
+248,105,"IND","India",20,"Madhya Pradesh",248,"Anuppur","District","District",NA,NA
+249,105,"IND","India",20,"Madhya Pradesh",249,"Ashoknagar","District","District",NA,NA
+250,105,"IND","India",20,"Madhya Pradesh",250,"Balaghat","District","District",NA,NA
+251,105,"IND","India",20,"Madhya Pradesh",251,"Barwani","District","District",NA,NA
+252,105,"IND","India",20,"Madhya Pradesh",252,"Betul","District","District",NA,NA
+253,105,"IND","India",20,"Madhya Pradesh",253,"Bhind","District","District",NA,NA
+254,105,"IND","India",20,"Madhya Pradesh",254,"Bhopal","District","District",NA,NA
+255,105,"IND","India",20,"Madhya Pradesh",255,"Burhanpur","District","District",NA,NA
+256,105,"IND","India",20,"Madhya Pradesh",256,"Chhatarpur","District","District",NA,"Chhatapur|Chatarpur"
+257,105,"IND","India",20,"Madhya Pradesh",257,"Chhindwara","District","District",NA,NA
+258,105,"IND","India",20,"Madhya Pradesh",258,"Damoh","District","District",NA,NA
+259,105,"IND","India",20,"Madhya Pradesh",259,"Datia","District","District",NA,NA
+260,105,"IND","India",20,"Madhya Pradesh",260,"Dewas","District","District",NA,NA
+261,105,"IND","India",20,"Madhya Pradesh",261,"Dhar","District","District",NA,NA
+262,105,"IND","India",20,"Madhya Pradesh",262,"Dindori","District","District",NA,NA
+263,105,"IND","India",20,"Madhya Pradesh",263,"East Nimar","District","District",NA,"Khandwa"
+264,105,"IND","India",20,"Madhya Pradesh",264,"Guna","District","District",NA,"Goona"
+265,105,"IND","India",20,"Madhya Pradesh",265,"Gwalior","District","District",NA,"Gird, Gird Gwalior"
+266,105,"IND","India",20,"Madhya Pradesh",266,"Harda","District","District",NA,NA
+267,105,"IND","India",20,"Madhya Pradesh",267,"Hoshangabad","District","District",NA,NA
+268,105,"IND","India",20,"Madhya Pradesh",268,"Indore","District","District",NA,NA
+269,105,"IND","India",20,"Madhya Pradesh",269,"Jabalpur","District","District",NA,"Jubbulpore"
+270,105,"IND","India",20,"Madhya Pradesh",270,"Jhabua","District","District",NA,NA
+271,105,"IND","India",20,"Madhya Pradesh",271,"Katni","District","District",NA,NA
+272,105,"IND","India",20,"Madhya Pradesh",272,"Mandla","District","District",NA,NA
+273,105,"IND","India",20,"Madhya Pradesh",273,"Mandsaur","District","District",NA,"Mandasor"
+274,105,"IND","India",20,"Madhya Pradesh",274,"Morena","District","District",NA,"Tonwarghar"
+275,105,"IND","India",20,"Madhya Pradesh",275,"Narsinghpur","District","District",NA,"Narsimhapur"
+276,105,"IND","India",20,"Madhya Pradesh",276,"Neemuch","District","District",NA,NA
+277,105,"IND","India",20,"Madhya Pradesh",277,"Panna","District","District",NA,NA
+278,105,"IND","India",20,"Madhya Pradesh",278,"Raisen","District","District",NA,NA
+279,105,"IND","India",20,"Madhya Pradesh",279,"Rajgarh","District","District",NA,NA
+280,105,"IND","India",20,"Madhya Pradesh",280,"Ratlam","District","District",NA,NA
+281,105,"IND","India",20,"Madhya Pradesh",281,"Rewa","District","District",NA,NA
+282,105,"IND","India",20,"Madhya Pradesh",282,"Sagar","District","District",NA,"Saugor"
+283,105,"IND","India",20,"Madhya Pradesh",283,"Satna","District","District",NA,NA
+284,105,"IND","India",20,"Madhya Pradesh",284,"Sehore","District","District",NA,NA
+285,105,"IND","India",20,"Madhya Pradesh",285,"Seoni","District","District",NA,NA
+286,105,"IND","India",20,"Madhya Pradesh",286,"Shahdol","District","District",NA,"Sahdol"
+287,105,"IND","India",20,"Madhya Pradesh",287,"Shajapur","District","District",NA,NA
+288,105,"IND","India",20,"Madhya Pradesh",288,"Sheopur","District","District",NA,"Sheopur Kala"
+289,105,"IND","India",20,"Madhya Pradesh",289,"Shivpuri","District","District",NA,"Narwar"
+290,105,"IND","India",20,"Madhya Pradesh",290,"Sidhi","District","District",NA,NA
+291,105,"IND","India",20,"Madhya Pradesh",291,"Tikamgarh","District","District",NA,NA
+292,105,"IND","India",20,"Madhya Pradesh",292,"Ujjain","District","District",NA,NA
+293,105,"IND","India",20,"Madhya Pradesh",293,"Umaria","District","District",NA,NA
+294,105,"IND","India",20,"Madhya Pradesh",294,"Vidisha","District","District",NA,NA
+295,105,"IND","India",20,"Madhya Pradesh",295,"West Nimar","District","District",NA,"Khargone;Khargaon"
+296,105,"IND","India",21,"Maharashtra",296,"Ahmednagar","District","District",NA,"Ahmadnagar"
+297,105,"IND","India",21,"Maharashtra",297,"Akola","District","District",NA,NA
+298,105,"IND","India",21,"Maharashtra",298,"Amravati","District","District",NA,"Amaravati, Amraoti, Amaraoti"
+299,105,"IND","India",21,"Maharashtra",299,"Aurangabad","District","District",NA,NA
+300,105,"IND","India",21,"Maharashtra",300,"Bhandara","District","District",NA,NA
+301,105,"IND","India",21,"Maharashtra",301,"Bid","District","District",NA,"Bir|Beed|Bhir|Bidh"
+302,105,"IND","India",21,"Maharashtra",302,"Buldana","District","District",NA,NA
+303,105,"IND","India",21,"Maharashtra",303,"Chandrapur","District","District",NA,"Chanda"
+304,105,"IND","India",21,"Maharashtra",304,"Dhule","District","District",NA,"Dhulia, West Khandesh"
+305,105,"IND","India",21,"Maharashtra",305,"Garhchiroli","District","District",NA,NA
+306,105,"IND","India",21,"Maharashtra",306,"Gondiya","District","District",NA,NA
+307,105,"IND","India",21,"Maharashtra",307,"Greater Bombay","District","District",NA,NA
+308,105,"IND","India",21,"Maharashtra",308,"Hingoli","District","District",NA,NA
+309,105,"IND","India",21,"Maharashtra",309,"Jalgaon","District","District",NA,"East Khandesh"
+310,105,"IND","India",21,"Maharashtra",310,"Jalna","District","District",NA,NA
+311,105,"IND","India",21,"Maharashtra",311,"Kolhapur","District","District",NA,NA
+312,105,"IND","India",21,"Maharashtra",312,"Latur","District","District",NA,"Kulaba, Kolaba, Kolabad"
+313,105,"IND","India",21,"Maharashtra",313,"Nagpur","District","District",NA,NA
+314,105,"IND","India",21,"Maharashtra",314,"Nanded","District","District",NA,"Nander"
+315,105,"IND","India",21,"Maharashtra",315,"Nandurbar","District","District",NA,NA
+316,105,"IND","India",21,"Maharashtra",316,"Nashik","District","District",NA,"Nasik"
+317,105,"IND","India",21,"Maharashtra",317,"Osmanabad","District","District",NA,NA
+318,105,"IND","India",21,"Maharashtra",318,"Parbhani","District","District",NA,NA
+319,105,"IND","India",21,"Maharashtra",319,"Pune","District","District",NA,"Poona"
+320,105,"IND","India",21,"Maharashtra",320,"Raigarh","District","District",NA,"Raygad"
+321,105,"IND","India",21,"Maharashtra",321,"Ratnagiri","District","District",NA,NA
+322,105,"IND","India",21,"Maharashtra",322,"Sangli","District","District",NA,"South Satara"
+323,105,"IND","India",21,"Maharashtra",323,"Satara","District","District",NA,"North Satara"
+324,105,"IND","India",21,"Maharashtra",324,"Sindhudurg","District","District",NA,"Kudal, Sindhdurg"
+325,105,"IND","India",21,"Maharashtra",325,"Solapur","District","District",NA,"Sholapur"
+326,105,"IND","India",21,"Maharashtra",326,"Thane","District","District",NA,"Thana"
+327,105,"IND","India",21,"Maharashtra",327,"Wardha","District","District",NA,NA
+328,105,"IND","India",21,"Maharashtra",328,"Washim","District","District",NA,NA
+329,105,"IND","India",21,"Maharashtra",329,"Yavatmal","District","District",NA,"Yeotmal"
+330,105,"IND","India",22,"Manipur",330,"Bishnupur","District","District",NA,"Bishenpur|Sishnupur"
+331,105,"IND","India",22,"Manipur",331,"Chandel","District","District",NA,"Tengnoupal"
+332,105,"IND","India",22,"Manipur",332,"Churachandpur","District","District",NA,"Manipur South|Churchandpur"
+333,105,"IND","India",22,"Manipur",333,"East Imphal","District","District",NA,NA
+334,105,"IND","India",22,"Manipur",334,"Senapati","District","District",NA,NA
+335,105,"IND","India",22,"Manipur",335,"Tamenglong","District","District",NA,"Manipur West"
+336,105,"IND","India",22,"Manipur",336,"Thoubal","District","District",NA,NA
+337,105,"IND","India",22,"Manipur",337,"Ukhrul","District","District",NA,"Manipur East, Ukhurul"
+338,105,"IND","India",22,"Manipur",338,"West Imphal","District","District",NA,NA
+339,105,"IND","India",23,"Meghalaya",339,"East Garo Hills","District","District",NA,NA
+340,105,"IND","India",23,"Meghalaya",340,"East Khasi Hills","District","District",NA,NA
+341,105,"IND","India",23,"Meghalaya",341,"Jaintia Hills","District","District",NA,NA
+342,105,"IND","India",23,"Meghalaya",342,"Ri-Bhoi","District","District",NA,NA
+343,105,"IND","India",23,"Meghalaya",343,"South Garo Hills","District","District",NA,NA
+344,105,"IND","India",23,"Meghalaya",344,"West Garo Hills","District","District",NA,NA
+345,105,"IND","India",23,"Meghalaya",345,"West Khasi Hills","District","District",NA,NA
+346,105,"IND","India",24,"Mizoram",346,"Aizawl","District","District",NA,"Aizawal"
+347,105,"IND","India",24,"Mizoram",347,"Champhai","District","District",NA,NA
+348,105,"IND","India",24,"Mizoram",348,"Kolasib","District","District",NA,"Aizawal"
+349,105,"IND","India",24,"Mizoram",349,"Lawngtlai","District","District",NA,NA
+350,105,"IND","India",24,"Mizoram",350,"Lunglei","District","District",NA,NA
+351,105,"IND","India",24,"Mizoram",351,"Mamit","District","District",NA,NA
+352,105,"IND","India",24,"Mizoram",352,"Saiha","District","District",NA,"Chhimtuipui"
+353,105,"IND","India",24,"Mizoram",353,"Serchhip","District","District",NA,NA
+354,105,"IND","India",25,"Nagaland",354,"Dimapur","District","District",NA,NA
+355,105,"IND","India",25,"Nagaland",355,"Kohima","District","District",NA,NA
+356,105,"IND","India",25,"Nagaland",356,"Mokokchung","District","District",NA,"Mokochung"
+357,105,"IND","India",25,"Nagaland",357,"Mon","District","District",NA,NA
+358,105,"IND","India",25,"Nagaland",358,"Phek","District","District",NA,"Pheka"
+359,105,"IND","India",25,"Nagaland",359,"Tuensang","District","District",NA,"Tuenasang"
+360,105,"IND","India",25,"Nagaland",360,"Wokha","District","District",NA,NA
+361,105,"IND","India",25,"Nagaland",361,"Zunheboto","District","District",NA,"Zanheboto|Zonheboto"
+362,105,"IND","India",26,"Orissa",362,"Angul","District","District",NA,NA
+363,105,"IND","India",26,"Orissa",363,"Baleshwar","District","District",NA,"Balasore, Baleswar"
+364,105,"IND","India",26,"Orissa",364,"Baragarh","District","District",NA,NA
+365,105,"IND","India",26,"Orissa",365,"Bhadrak","District","District",NA,NA
+366,105,"IND","India",26,"Orissa",366,"Bolangir","District","District",NA,"Balangir"
+367,105,"IND","India",26,"Orissa",367,"Boudh","District","District",NA,NA
+368,105,"IND","India",26,"Orissa",368,"Cuttack","District","District",NA,NA
+369,105,"IND","India",26,"Orissa",369,"Deogarh","District","District",NA,"Debagarh"
+370,105,"IND","India",26,"Orissa",370,"Dhenkanal","District","District",NA,NA
+371,105,"IND","India",26,"Orissa",371,"Gajapati","District","District",NA,NA
+372,105,"IND","India",26,"Orissa",372,"Ganjam","District","District",NA,NA
+373,105,"IND","India",26,"Orissa",373,"Jagatsinghpur","District","District",NA,NA
+374,105,"IND","India",26,"Orissa",374,"Jajpur","District","District",NA,NA
+375,105,"IND","India",26,"Orissa",375,"Jharsuguda","District","District",NA,NA
+376,105,"IND","India",26,"Orissa",376,"Kalahandi","District","District",NA,NA
+377,105,"IND","India",26,"Orissa",377,"Kandhamal","District","District",NA,"Phulabani"
+378,105,"IND","India",26,"Orissa",378,"Kendrapara","District","District",NA,NA
+379,105,"IND","India",26,"Orissa",379,"Keonjhar","District","District",NA,"Kendujhar"
+380,105,"IND","India",26,"Orissa",380,"Khordha","District","District",NA,NA
+381,105,"IND","India",26,"Orissa",381,"Koraput","District","District",NA,NA
+382,105,"IND","India",26,"Orissa",382,"Malkangiri","District","District",NA,NA
+383,105,"IND","India",26,"Orissa",383,"Mayurbhanj","District","District",NA,NA
+384,105,"IND","India",26,"Orissa",384,"Nabarangpur","District","District",NA,NA
+385,105,"IND","India",26,"Orissa",385,"Nayagarh","District","District",NA,NA
+386,105,"IND","India",26,"Orissa",386,"Nuapada","District","District",NA,NA
+387,105,"IND","India",26,"Orissa",387,"Puri","District","District",NA,NA
+388,105,"IND","India",26,"Orissa",388,"Rayagada","District","District",NA,NA
+389,105,"IND","India",26,"Orissa",389,"Sambalpur","District","District",NA,NA
+390,105,"IND","India",26,"Orissa",390,"Sonepur","District","District",NA,"Balangir"
+391,105,"IND","India",26,"Orissa",391,"Sundargarh","District","District",NA,"Sundagarh|Bonai"
+392,105,"IND","India",27,"Puducherry",392,"Karaikal","District","District",NA,"Karaikkal|Karikal"
+393,105,"IND","India",27,"Puducherry",393,"Mahe","District","District",NA,NA
+394,105,"IND","India",27,"Puducherry",394,"Puducherry","District","District",NA,"Pondicherry|Puduchcheri|Pondichéry"
+395,105,"IND","India",27,"Puducherry",395,"Yanam","District","District",NA,"Yanaon"
+396,105,"IND","India",28,"Punjab",396,"Amritsar","District","District",NA,NA
+397,105,"IND","India",28,"Punjab",397,"Bathinda","District","District",NA,"Bhatinda"
+398,105,"IND","India",28,"Punjab",398,"Faridkot","District","District",NA,"Fridkot"
+399,105,"IND","India",28,"Punjab",399,"Fatehgarh Sahib","District","District",NA,NA
+400,105,"IND","India",28,"Punjab",400,"Firozpur","District","District",NA,"Ferojpur, Firozepur, Ferozepore, Feruzpur"
+401,105,"IND","India",28,"Punjab",401,"Gurdaspur","District","District",NA,"Guardaspur"
+402,105,"IND","India",28,"Punjab",402,"Hoshiarpur","District","District",NA,NA
+403,105,"IND","India",28,"Punjab",403,"Jalandhar","District","District",NA,"Jullundur"
+404,105,"IND","India",28,"Punjab",404,"Kapurthala","District","District",NA,NA
+405,105,"IND","India",28,"Punjab",405,"Ludhiana","District","District",NA,NA
+406,105,"IND","India",28,"Punjab",406,"Mansa","District","District",NA,NA
+407,105,"IND","India",28,"Punjab",407,"Moga","District","District",NA,NA
+408,105,"IND","India",28,"Punjab",408,"Muktsar","District","District",NA,NA
+409,105,"IND","India",28,"Punjab",409,"Nawan Shehar","District","District",NA,NA
+410,105,"IND","India",28,"Punjab",410,"Patiala","District","District",NA,NA
+411,105,"IND","India",28,"Punjab",411,"Rupnagar","District","District",NA,"Ropar, Roop Nagar, Rupar"
+412,105,"IND","India",28,"Punjab",412,"Sangrur","District","District",NA,"Sangroor"
+413,105,"IND","India",29,"Rajasthan",413,"Ajmer","District","District",NA,NA
+414,105,"IND","India",29,"Rajasthan",414,"Alwar","District","District",NA,NA
+415,105,"IND","India",29,"Rajasthan",415,"Banswara","District","District",NA,NA
+416,105,"IND","India",29,"Rajasthan",416,"Baran","District","District",NA,NA
+417,105,"IND","India",29,"Rajasthan",417,"Barmer","District","District",NA,NA
+418,105,"IND","India",29,"Rajasthan",418,"Bharatpur","District","District",NA,NA
+419,105,"IND","India",29,"Rajasthan",419,"Bhilwara","District","District",NA,"Bhilavara"
+420,105,"IND","India",29,"Rajasthan",420,"Bikaner","District","District",NA,NA
+421,105,"IND","India",29,"Rajasthan",421,"Bundi","District","District",NA,NA
+422,105,"IND","India",29,"Rajasthan",422,"Chittaurgarh","District","District",NA,NA
+423,105,"IND","India",29,"Rajasthan",423,"Churu","District","District",NA,NA
+424,105,"IND","India",29,"Rajasthan",424,"Dausa","District","District",NA,NA
+425,105,"IND","India",29,"Rajasthan",425,"Dhaulpur","District","District",NA,NA
+426,105,"IND","India",29,"Rajasthan",426,"Dungarpur","District","District",NA,NA
+427,105,"IND","India",29,"Rajasthan",427,"Ganganagar","District","District",NA,"Sri Ganganagar"
+428,105,"IND","India",29,"Rajasthan",428,"Hanumangarh","District","District",NA,NA
+429,105,"IND","India",29,"Rajasthan",429,"Jaipur","District","District",NA,"Jeipur"
+430,105,"IND","India",29,"Rajasthan",430,"Jaisalmer","District","District",NA,NA
+431,105,"IND","India",29,"Rajasthan",431,"Jalor","District","District",NA,NA
+432,105,"IND","India",29,"Rajasthan",432,"Jhalawar","District","District",NA,NA
+433,105,"IND","India",29,"Rajasthan",433,"Jhunjhunun","District","District",NA,"Jhunjhunu"
+434,105,"IND","India",29,"Rajasthan",434,"Jodhpur","District","District",NA,NA
+435,105,"IND","India",29,"Rajasthan",435,"Karauli","District","District",NA,NA
+436,105,"IND","India",29,"Rajasthan",436,"Kota","District","District",NA,"Kotah"
+437,105,"IND","India",29,"Rajasthan",437,"Nagaur","District","District",NA,NA
+438,105,"IND","India",29,"Rajasthan",438,"Pali","District","District",NA,NA
+439,105,"IND","India",29,"Rajasthan",439,"Rajsamand","District","District",NA,NA
+440,105,"IND","India",29,"Rajasthan",440,"Sawai Madhopur","District","District",NA,NA
+441,105,"IND","India",29,"Rajasthan",441,"Sikar","District","District",NA,NA
+442,105,"IND","India",29,"Rajasthan",442,"Sirohi","District","District",NA,NA
+443,105,"IND","India",29,"Rajasthan",443,"Tonk","District","District",NA,NA
+444,105,"IND","India",29,"Rajasthan",444,"Udaipur","District","District",NA,NA
+445,105,"IND","India",30,"Sikkim",445,"East","District","District",NA,NA
+446,105,"IND","India",30,"Sikkim",446,"North Sikkim","District","District",NA,"North District"
+447,105,"IND","India",30,"Sikkim",447,"South Sikkim","District","District",NA,"South District"
+448,105,"IND","India",30,"Sikkim",448,"West Sikkim","District","District",NA,"West District"
+449,105,"IND","India",31,"Tamil Nadu",449,"Ariyalur","District","District",NA,NA
+450,105,"IND","India",31,"Tamil Nadu",450,"Chennai","District","District",NA,"Madras"
+451,105,"IND","India",31,"Tamil Nadu",451,"Coimbatore","District","District",NA,NA
+452,105,"IND","India",31,"Tamil Nadu",452,"Cuddalore","District","District",NA,NA
+453,105,"IND","India",31,"Tamil Nadu",453,"Dharmapuri","District","District",NA,"Dharampuri"
+454,105,"IND","India",31,"Tamil Nadu",454,"Dindigul","District","District",NA,"Anna"
+455,105,"IND","India",31,"Tamil Nadu",455,"Erode","District","District",NA,"Periyar"
+456,105,"IND","India",31,"Tamil Nadu",456,"Kancheepuram","District","District",NA,NA
+457,105,"IND","India",31,"Tamil Nadu",457,"Kanniyakumari","District","District",NA,NA
+458,105,"IND","India",31,"Tamil Nadu",458,"Karur","District","District",NA,NA
+459,105,"IND","India",31,"Tamil Nadu",459,"Madurai","District","District",NA,"Madura, Mathurai"
+460,105,"IND","India",31,"Tamil Nadu",460,"Nagapattinam","District","District",NA,NA
+461,105,"IND","India",31,"Tamil Nadu",461,"Namakkal","District","District",NA,NA
+462,105,"IND","India",31,"Tamil Nadu",462,"Nilgiris","District","District",NA,"Nilgiri"
+463,105,"IND","India",31,"Tamil Nadu",463,"Perambalur","District","District",NA,NA
+464,105,"IND","India",31,"Tamil Nadu",464,"Pudukkottai","District","District",NA,"Pudukottai"
+465,105,"IND","India",31,"Tamil Nadu",465,"Ramanathapuram","District","District",NA,"Ramananthapuram, Rameswaram, Ramnad"
+466,105,"IND","India",31,"Tamil Nadu",466,"Salem","District","District",NA,NA
+467,105,"IND","India",31,"Tamil Nadu",467,"Sivaganga","District","District",NA,"Pasumpon Muthuramalinga"
+468,105,"IND","India",31,"Tamil Nadu",468,"Thanjavur","District","District",NA,"Tanjore"
+469,105,"IND","India",31,"Tamil Nadu",469,"Theni","District","District",NA,NA
+470,105,"IND","India",31,"Tamil Nadu",470,"Thiruvallur","District","District",NA,NA
+471,105,"IND","India",31,"Tamil Nadu",471,"Thiruvarur","District","District",NA,NA
+472,105,"IND","India",31,"Tamil Nadu",472,"Thoothukudi","District","District",NA,"Chidambaranar"
+473,105,"IND","India",31,"Tamil Nadu",473,"Tiruchchirappalli","District","District",NA,NA
+474,105,"IND","India",31,"Tamil Nadu",474,"Tirunelveli Kattabo","District","District",NA,NA
+475,105,"IND","India",31,"Tamil Nadu",475,"Tiruvannamalai","District","District",NA,NA
+476,105,"IND","India",31,"Tamil Nadu",476,"Vellore","District","District",NA,"North Arcot"
+477,105,"IND","India",31,"Tamil Nadu",477,"Villupuram","District","District",NA,NA
+478,105,"IND","India",31,"Tamil Nadu",478,"Virudhunagar","District","District",NA,"Kamarajar"
+479,105,"IND","India",32,"Telangana",479,"Adilabad","District","District",NA,NA
+480,105,"IND","India",32,"Telangana",480,"Hyderabad","District","District",NA,NA
+481,105,"IND","India",32,"Telangana",481,"Karimnagar","District","District",NA,NA
+482,105,"IND","India",32,"Telangana",482,"Khammam","District","District",NA,"Khammamamet"
+483,105,"IND","India",32,"Telangana",483,"Mahbubnagar","District","District",NA,"Mehbubnagar;Mahaboobnagar"
+484,105,"IND","India",32,"Telangana",484,"Medak","District","District",NA,"Sangapeddi"
+485,105,"IND","India",32,"Telangana",485,"Nalgonda","District","District",NA,NA
+486,105,"IND","India",32,"Telangana",486,"Nizamabad","District","District",NA,NA
+487,105,"IND","India",32,"Telangana",487,"Rangareddi","District","District",NA,"Rangareddy"
+488,105,"IND","India",32,"Telangana",488,"Warangal","District","District",NA,NA
+489,105,"IND","India",33,"Tripura",489,"Dhalai","District","District",NA,NA
+490,105,"IND","India",33,"Tripura",490,"North Tripura","District","District",NA,NA
+491,105,"IND","India",33,"Tripura",491,"South Tripura","District","District",NA,NA
+492,105,"IND","India",33,"Tripura",492,"West Tripura","District","District",NA,NA
+493,105,"IND","India",34,"Uttar Pradesh",493,"Agra","District","District",NA,NA
+494,105,"IND","India",34,"Uttar Pradesh",494,"Aligarh","District","District",NA,NA
+495,105,"IND","India",34,"Uttar Pradesh",495,"Allahabad","District","District",NA,NA
+496,105,"IND","India",34,"Uttar Pradesh",496,"Ambedkar Nagar","District","District",NA,NA
+497,105,"IND","India",34,"Uttar Pradesh",497,"Auraiya","District","District",NA,NA
+498,105,"IND","India",34,"Uttar Pradesh",498,"Azamgarh","District","District",NA,NA
+499,105,"IND","India",34,"Uttar Pradesh",499,"Badaun","District","District",NA,NA
+500,105,"IND","India",34,"Uttar Pradesh",500,"Baghpat","District","District",NA,NA
+501,105,"IND","India",34,"Uttar Pradesh",501,"Bahraich","District","District",NA,NA
+502,105,"IND","India",34,"Uttar Pradesh",502,"Ballia","District","District",NA,"Balia"
+503,105,"IND","India",34,"Uttar Pradesh",503,"Balrampur","District","District",NA,NA
+504,105,"IND","India",34,"Uttar Pradesh",504,"Banda","District","District",NA,NA
+505,105,"IND","India",34,"Uttar Pradesh",505,"Bara Banki","District","District",NA,NA
+506,105,"IND","India",34,"Uttar Pradesh",506,"Bareilly","District","District",NA,"Bareilley"
+507,105,"IND","India",34,"Uttar Pradesh",507,"Basti","District","District",NA,NA
+508,105,"IND","India",34,"Uttar Pradesh",508,"Bijnor","District","District",NA,"Bijnar|Bijnore"
+509,105,"IND","India",34,"Uttar Pradesh",509,"Bulandshahr","District","District",NA,"Bulandshahar, Buland Sahar"
+510,105,"IND","India",34,"Uttar Pradesh",510,"Chandauli","District","District",NA,NA
+511,105,"IND","India",34,"Uttar Pradesh",511,"Chitrakoot","District","District",NA,NA
+512,105,"IND","India",34,"Uttar Pradesh",512,"Deoria","District","District",NA,NA
+513,105,"IND","India",34,"Uttar Pradesh",513,"Etah","District","District",NA,NA
+514,105,"IND","India",34,"Uttar Pradesh",514,"Etawah","District","District",NA,NA
+515,105,"IND","India",34,"Uttar Pradesh",515,"Faizabad","District","District",NA,"Fyzabad"
+516,105,"IND","India",34,"Uttar Pradesh",516,"Farrukhabad","District","District",NA,"Farrukahabad, Ferrukhabad"
+517,105,"IND","India",34,"Uttar Pradesh",517,"Fatehpur","District","District",NA,NA
+518,105,"IND","India",34,"Uttar Pradesh",518,"Firozabad","District","District",NA,NA
+519,105,"IND","India",34,"Uttar Pradesh",519,"Gautam Buddha Nagar","District","District",NA,NA
+520,105,"IND","India",34,"Uttar Pradesh",520,"Ghaziabad","District","District",NA,NA
+521,105,"IND","India",34,"Uttar Pradesh",521,"Ghazipur","District","District",NA,"Gajipur"
+522,105,"IND","India",34,"Uttar Pradesh",522,"Gonda","District","District",NA,NA
+523,105,"IND","India",34,"Uttar Pradesh",523,"Gorakhpur","District","District",NA,"Goruckpur"
+524,105,"IND","India",34,"Uttar Pradesh",524,"Hamirpur","District","District",NA,NA
+525,105,"IND","India",34,"Uttar Pradesh",525,"Hardoi","District","District",NA,NA
+526,105,"IND","India",34,"Uttar Pradesh",526,"Hathras","District","District",NA,NA
+527,105,"IND","India",34,"Uttar Pradesh",527,"Jalaun","District","District",NA,NA
+528,105,"IND","India",34,"Uttar Pradesh",528,"Jaunpur","District","District",NA,"Jaupur"
+529,105,"IND","India",34,"Uttar Pradesh",529,"Jhansi","District","District",NA,NA
+530,105,"IND","India",34,"Uttar Pradesh",530,"Jyotiba Phule Nagar","District","District",NA,NA
+531,105,"IND","India",34,"Uttar Pradesh",531,"Kannauj","District","District",NA,NA
+532,105,"IND","India",34,"Uttar Pradesh",532,"Kanpur Dehat","District","District",NA,"Kanpur Rural"
+533,105,"IND","India",34,"Uttar Pradesh",533,"Kanpur","District","District",NA,"Kanpur Nagar"
+534,105,"IND","India",34,"Uttar Pradesh",534,"Kaushambi","District","District",NA,NA
+535,105,"IND","India",34,"Uttar Pradesh",535,"Kushinagar","District","District",NA,NA
+536,105,"IND","India",34,"Uttar Pradesh",536,"Lakhimpur Kheri","District","District",NA,"Kheri"
+537,105,"IND","India",34,"Uttar Pradesh",537,"Lalitpur","District","District",NA,NA
+538,105,"IND","India",34,"Uttar Pradesh",538,"Lucknow","District","District",NA,NA
+539,105,"IND","India",34,"Uttar Pradesh",539,"Maharajganj","District","District",NA,NA
+540,105,"IND","India",34,"Uttar Pradesh",540,"Mahoba","District","District",NA,NA
+541,105,"IND","India",34,"Uttar Pradesh",541,"Mainpuri","District","District",NA,NA
+542,105,"IND","India",34,"Uttar Pradesh",542,"Mathura","District","District",NA,"Muttra"
+543,105,"IND","India",34,"Uttar Pradesh",543,"Mau","District","District",NA,NA
+544,105,"IND","India",34,"Uttar Pradesh",544,"Meerut","District","District",NA,NA
+545,105,"IND","India",34,"Uttar Pradesh",545,"Mirzapur","District","District",NA,NA
+546,105,"IND","India",34,"Uttar Pradesh",546,"Moradabad","District","District",NA,NA
+547,105,"IND","India",34,"Uttar Pradesh",547,"Muzaffarnagar","District","District",NA,NA
+548,105,"IND","India",34,"Uttar Pradesh",548,"Pilibhit","District","District",NA,NA
+549,105,"IND","India",34,"Uttar Pradesh",549,"Pratapgarh","District","District",NA,"Bela cum Pratapgarh, Partabgarh, Partapgarh"
+550,105,"IND","India",34,"Uttar Pradesh",550,"Rae Bareli","District","District",NA,"Rai Bareli, Rai Bareilly"
+551,105,"IND","India",34,"Uttar Pradesh",551,"Rampur","District","District",NA,NA
+552,105,"IND","India",34,"Uttar Pradesh",552,"Saharanpur","District","District",NA,NA
+553,105,"IND","India",34,"Uttar Pradesh",553,"Sant Kabir Nagar","District","District",NA,NA
+554,105,"IND","India",34,"Uttar Pradesh",554,"Sant Ravi Das Nagar","District","District",NA,NA
+555,105,"IND","India",34,"Uttar Pradesh",555,"Shahjahanpur","District","District",NA,"Shahajahanpur"
+556,105,"IND","India",34,"Uttar Pradesh",556,"Shravasti","District","District",NA,NA
+557,105,"IND","India",34,"Uttar Pradesh",557,"Siddharth Nagar","District","District",NA,"Sidharthnagar"
+558,105,"IND","India",34,"Uttar Pradesh",558,"Sitapur","District","District",NA,NA
+559,105,"IND","India",34,"Uttar Pradesh",559,"Sonbhadra","District","District",NA,"Sonebhadra"
+560,105,"IND","India",34,"Uttar Pradesh",560,"Sultanpur","District","District",NA,NA
+561,105,"IND","India",34,"Uttar Pradesh",561,"Unnao","District","District",NA,"Unnao Nagar, Unao"
+562,105,"IND","India",34,"Uttar Pradesh",562,"Varanasi","District","District",NA,"Benares"
+563,105,"IND","India",35,"Uttaranchal",563,"Almora","District","District",NA,NA
+564,105,"IND","India",35,"Uttaranchal",564,"Bageshwar","District","District",NA,NA
+565,105,"IND","India",35,"Uttaranchal",565,"Chamoli","District","District",NA,"Chamoli cum Gopeshwar"
+566,105,"IND","India",35,"Uttaranchal",566,"Champawat","District","District",NA,NA
+567,105,"IND","India",35,"Uttaranchal",567,"Dehra Dun","District","District",NA,NA
+568,105,"IND","India",35,"Uttaranchal",568,"Haridwar","District","District",NA,"Hardwar"
+569,105,"IND","India",35,"Uttaranchal",569,"Naini Tal","District","District",NA,NA
+570,105,"IND","India",35,"Uttaranchal",570,"Pauri Garhwal","District","District",NA,"Garhwal"
+571,105,"IND","India",35,"Uttaranchal",571,"Pithoragarh","District","District",NA,NA
+572,105,"IND","India",35,"Uttaranchal",572,"Rudra Prayag","District","District",NA,NA
+573,105,"IND","India",35,"Uttaranchal",573,"Tehri Garhwal","District","District",NA,"Tehri|Narendranagar|Tehri Garwal"
+574,105,"IND","India",35,"Uttaranchal",574,"Udham Singh Nagar","District","District",NA,NA
+575,105,"IND","India",35,"Uttaranchal",575,"Uttarkashi","District","District",NA,NA
+576,105,"IND","India",36,"West Bengal",576,"Bankura","District","District",NA,NA
+577,105,"IND","India",36,"West Bengal",577,"Barddhaman","District","District",NA,NA
+578,105,"IND","India",36,"West Bengal",578,"Birbhum","District","District",NA,NA
+579,105,"IND","India",36,"West Bengal",579,"Dakshin Dinajpur","District","District",NA,"Dinajpur(South)"
+580,105,"IND","India",36,"West Bengal",580,"Darjiling","District","District",NA,NA
+581,105,"IND","India",36,"West Bengal",581,"East Midnapore","District","District",NA,"Purba Medinipur"
+582,105,"IND","India",36,"West Bengal",582,"Haora","District","District",NA,NA
+583,105,"IND","India",36,"West Bengal",583,"Hugli","District","District",NA,NA
+584,105,"IND","India",36,"West Bengal",584,"Jalpaiguri","District","District",NA,NA
+585,105,"IND","India",36,"West Bengal",585,"Kochbihar","District","District",NA,NA
+586,105,"IND","India",36,"West Bengal",586,"Kolkata","District","District",NA,"Calcutta"
+587,105,"IND","India",36,"West Bengal",587,"Maldah","District","District",NA,NA
+588,105,"IND","India",36,"West Bengal",588,"Murshidabad","District","District",NA,NA
+589,105,"IND","India",36,"West Bengal",589,"Nadia","District","District",NA,NA
+590,105,"IND","India",36,"West Bengal",590,"North 24 Parganas","District","District",NA,NA
+591,105,"IND","India",36,"West Bengal",591,"Puruliya","District","District",NA,NA
+592,105,"IND","India",36,"West Bengal",592,"South 24 Parganas","District","District",NA,NA
+593,105,"IND","India",36,"West Bengal",593,"Uttar Dinajpur","District","District",NA,NA
+594,105,"IND","India",36,"West Bengal",594,"West Midnapore","District","District",NA,"Paschim Medinipur"
