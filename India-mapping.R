@@ -107,7 +107,7 @@ plot(ind_chandigarh, col=data$col, border="#ffffff", lwd=0.5, main = "Chandigarh
 
 #Chandigarh
 ind_district<- readShapePoly("IND_adm/IND_adm2")
-ind_chhattisgarh <- ind_district[ind_district$NAME_1 == "chhattisgarh",]
+ind_chhattisgarh <- ind_district[ind_district$NAME_1 == "Chhattisgarh",]
 data$col <- sapply(data$ImprovedDrinkingWater, pickColor)
 plot(ind_chhattisgarh, col=data$col, border="#ffffff", lwd=0.5, main = "Chhanttisgarh")
 
