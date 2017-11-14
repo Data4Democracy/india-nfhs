@@ -7,11 +7,13 @@
 
 **Project Co-Leads / Maintainers:** [@lukewolcott](https://datafordemocracy.slack.com/messages/@lukewolcott/) / (more needed!)
 
+**Contributors So Far:** (Slack handles) @lukewolcott, @rsibi, @sai, @preet, @vsridhar, @fibinse
+
 **Data:** [https://data.world/data4democracy/india-nfhs](https://data.world/data4democracy/india-nfhs), and in this repo.
 
 ## Outline:
 
-Getting started | Background | Questions to pursue | First steps
+Getting started | Background | Questions to pursue | First steps | Deliverables So Far
 
 ## Getting started:
 
@@ -57,3 +59,15 @@ The **NFHS-3**, conducted 2005-2006, is [available in full](http://www.dhsprogra
 * The `nfhs3-analysis` folder has some initial exploratory plots, a jupyter notebook with some exploratory data analysis, and a notebook of machine learning models (decision trees, random forests) to predict the sex of the household head.
 
 * The `nfhs3-wealth-index-analysis` folder contains files and reports analyzing the 'wealth index' variable, and the difference between rural and urban households.
+
+## Deliverables So Far:
+
+Feel free to contact contributors on Slack to get involved! 
+
+- [EDA-lukewolcott.ipynb](http://nbviewer.jupyter.org/github/Data4Democracy/india-nfhs/blob/master/nfhs3-analysis/EDA-lukewolcott.ipynb): a notebook with initial exploratory data analysis and plots for NFHS-3. (@lukewolcott)
+
+- [Predicting-HV219.ipynb](http://nbviewer.jupyter.org/github/Data4Democracy/india-nfhs/blob/master/nfhs3-analysis/Predicting-HV219.ipynb): using decision trees, random forests to predict sex of household head. (@lukewolcott, @vsridhar)
+
+- [Wealth_Index_Initial_Report.html](https://data4democracy.github.io/india-nfhs/nfhs3-wealth-index-analysis/Wealth_Index_Initial_Report.html): analyzing the components of the wealth index, as they differ between geographic regions (rural, urban, large or small city, etc). (@sai, @preet)
+
+- [Volatile Sex Ratio](http://stories.visualist.in/): a nice web report looking at change in each Indian state's sex ratio between NFHS-3 and NFHS-4. (@fibinse)
