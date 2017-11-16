@@ -1,5 +1,5 @@
 ---
-title: "India-Mapping"
+title: "Improved Drinking Water Source in India"
 output: html_document
 ---
 
@@ -8,13 +8,17 @@ knitr::opts_chunk$set(echo = TRUE)
 rgdal::readOGR
 ```
 
-## R Markdown
-
 ```{r libraries, include=FALSE}
 library(maps)
 library(maptools)
 library(rgdal)
 ```
+
+## Introduction
+
+
+
+
 ## Cleaning And Importing Data
 ```{r datacleaning, cache=FALSE}
 data <-read.csv("data.csv")
@@ -22,6 +26,7 @@ data$ImprovedDrinkingWater<-data$Households.with.an.improved.drinking.water.sour
 data$ImprovedDrinkingWater<-data$ImprovedDrinkingWater/100
 data1 <- aggregate(ImprovedDrinkingWater~State.1, data=data, FUN=mean)
 ```
+
 
 
 ```{r India Map, echo=FALSE, warning=FALSE}
@@ -93,6 +98,7 @@ text(.5, .35, "HH with Improved\n Drinking Water Source", cex=.5)
 text(1:(length(col)-1) * rect_width, .04, labels = breaks, cex=0.7)
 
 ```
+
 ```{r Andhra Pradesh, echo=FALSE, warning=FALSE}
 
 ind_district<- readShapePoly("IND_adm/IND_adm2")
