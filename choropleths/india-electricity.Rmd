@@ -10,19 +10,16 @@ rgdal::readOGR
 
 ##Introduction
 
-It is important for Indian households to move towards cleaner and more efficient cookstoves and fuels as usage of traditional cookstoves and open fires causes childhood pneumonia, emphysema, cataracts, lung cancer, bronchitis, cardiovascular disease, and low birth weight. 
-
-In this analysis I am trying to measure how many regions in India have moved towards using Clean Fuel for cooking on a state and district level. The darker the colouring gets, the households in that region are more likely to use clean fuel for cooking. 
+In this analysis I am trying to measure how many regions in India have more access to electricity on a state and district level. The darker the colouring gets, the households in that region are more likely to have electricity. 
 
 The data is sourced from [National Family Health Survey](http://rchiips.org/nfhs/). 
-
-## R Markdown
 
 ```{r libraries, include=FALSE}
 library(maps)
 library(maptools)
 library(rgdal)
 ```
+
 ## Cleaning And Importing Data
 ```{r datacleaning, cache=FALSE}
 data <-read.csv("data.csv")

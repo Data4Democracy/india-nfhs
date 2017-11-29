@@ -16,8 +16,6 @@ In this analysis I am trying to measure how many regions in India have moved tow
 
 The data is sourced from [National Family Health Survey](http://rchiips.org/nfhs/). 
 
-## R Markdown
-
 ```{r libraries, include=FALSE}
 library(maps)
 library(maptools)
@@ -107,6 +105,7 @@ text(.5, .35, "HH Using Clean\n Fuel For Cooking", cex=.5)
 text(1:(length(col)-1) * rect_width, .04, labels = breaks, cex=0.3)
 
 ```
+
 ```{r Andhra Pradesh, echo=FALSE, warning=FALSE}
 
 ind_district<- readShapePoly("IND_adm/IND_adm2")

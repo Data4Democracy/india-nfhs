@@ -1,6 +1,9 @@
 ---
 title: "Households With An Improved Drinking Water Source in India (NFHS-4)"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -19,8 +22,6 @@ Here, help is often slow to arrive after natural disasters, infrastructure is po
 In this analysis I am trying to measure how many regions in India have access to clean drinking water on a state and district level. The darker the colouring gets, the households in that region are more likely to have access to clean drinking water. 
 
 The data is sourced from [National Family Health Survey](http://rchiips.org/nfhs/). 
-
-## R Markdown
 
 ```{r libraries, include=FALSE}
 library(maps)
