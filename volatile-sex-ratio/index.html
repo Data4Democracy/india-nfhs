@@ -1,0 +1,116 @@
+<!doctype html> <html lang="en">   <head>     <meta charset="utf-8">
+<title>How the sex ratio is not doing good</title>
+    
+    <!-- SEE IF ALL THE METADATA BELOW HAS TO BE CHANGED -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/d3.v4.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/topojson.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54134019-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            India's <i>volatile</i> sex ratio
+        </h1>
+        <sub>Punjab shows us how to reign in this wild horse with the oldest 
+        trick in the book - consistency.</sub>
+        <div class="story">
+            <p>Gaurav, aged 34 hails from the city of Rohtak, Haryana where he works as a
+            domestic help and lives with his wife and 2 children. His wife is from Tamil
+            Nadu and at first glance the couple might seem like an example of progressive, 
+            interstate marriage in a state rife with rigid marriage laws but nothing could 
+            be further from the truth.
+            </p>
+
+            
+            <p>
+            He is one of the many <i>Haryanvi</i> men who were forced to find brides from other states,
+            as years of rampant female foeticide and rigid societal structures resulted in 
+            a drastically low sex ratio. 
+            Haryana is not the only state with a skewed ratio, but as per the National 
+            Family Health Scheme 2015-16, Haryana has the lowest sex ratio
+            at 876 females per thousand males. The map below shows the sex-ratio distribution
+            across the country:
+            </p>
+        </div>
+        <div class="visual" id="sex_ratio_india">
+        </div>
+        <div class="story">
+            <p>
+            The inspiriting observation that most states have a sex-ratio higher than 970 
+            is watered down by the fact the sex-ratio is a highly volatile metric. 
+            When compared to the NFHS survey of 2005, almost 50% of the states have seen 
+            a fall, some even to the tune of 6%. 
+            </p>
+        </div>
+        <div class="visual" id="yoy_sex_ratio"></div>
+        <div class="story">
+            <p>
+            What adds to the administrative anxiety is the fact that even the states that
+            are doing very positive can see a drastic fall. Take the case of Karnataka
+            for instance - in the 2005-06 NFHS survey, it comfortably had 1028 women
+            per thousand men; but in 2015-16, the same fell by 49, to 979.
+
+            It is these major shifts that India needs to learn to be wary about and work
+            against. These variations become highlighted when the sex ratio observed 
+            during the Census survey are observed in contrast with that of the 
+            National Family Health Scheme.
+            </p>
+        </div>
+        <div class="scatter">
+            <h2>Sex ratio according to 
+                <span class="survey_name">NFHS 2015-16</span>
+                <button type="button" name="update_button" onclick="update_data()">
+                  Toggle survey
+                </button>
+            </h2>
+            <div>
+                <svg width=300 height=20>
+                    <rect fill='#1a9641' width=15 height=15 />
+                    <text x=22 y=12> >30</text>
+                    <rect x="54" width=15 height=15 fill='#ffff00' />
+                    <text x=72 y=12> >0</text>
+                    <rect x="98" width=15 height=15 fill='#fdae61' />
+                    <text x=116 y=12>-30 to 0</text>
+                    <rect x="189" fill='#d7191c' width=15 height=15 />
+                    <text x=205 y=12>< -30</text>
+                </svg>
+            </div>
+        </div>
+        <div class="story">
+            <p>
+            During the Census survey 2011, the majority of states showed a marginal 
+            positive increase in sex ratio, in comparison to the Census survey 2005. But when 
+            we switch to NFHS - 2015, the majority failed to register any improvement
+            in the sex ratio. 
+            </p>
+            <p>
+            In this commotion of fluctuating <i>"life"</i>-ratios, Punjab gives us hope.
+            It is the only state which showed positive growth in both Census survey of 2011
+            and NFHS 2015. If India is to achieve this delicate balance, each of the other states
+            will need to learn from Punjab.
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/sex_ratio_india.js"></script>
+    <script type="text/javascript" src="js/yoy_sex_ratio_india.js"></script>
+    <script type="text/javascript" src="js/scatterplot.js"></script>
+</body>
+</html>
