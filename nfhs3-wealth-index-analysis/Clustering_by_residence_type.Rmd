@@ -1,0 +1,325 @@
+---
+title: "Household clustering by type of residence"
+author: "Luke Wolcott"
+date: "December 8, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning=FALSE, message=FALSE, echo=FALSE)
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(NbClust)
+library(ggplot2)
+
+# for clustering with cosine distance
+#library(akmeans)
+
+set.seed(134)
+```
+
+The NFHS-3 household dataset includes a constructed Wealth Index variable.  Our premise is that wealth should be defined very differently depending on the type of residence region: rural, urban, mega-city, and urban excluding mega-cities.
+
+First we subset the full dataset into these separate residence type subpopulations, and select only the household characteristics we are most interested in.  Then we cluster each of these subpopulations using k-means.  To determine which k value to use, we refer to Sai Pranav's analysis of within-group sum of squares.
+
+For each residence type subpopulation, we compare our clusters to the NFHS wealth index.  
+
+Finally, we look at several variables specifically:
+
+- electricity usage (`HV206` in the codebook)
+
+- access to improved sanitation (`HV205`)
+
+- access to improved drinking water (`HV201`)
+
+- households using clean fuel for cooking (`HV226`)  
+
+Preet Rajdeo has already taken a geographic approach to these variables, and generated district-level chloropleths.
+
+
+
+```{r, cache=TRUE}
+household <- read.csv("household_truncated.csv")
+```
+
+
+```{r}
+householdWI <- select(household, HV201, HV202, HV205, HV206, HV207, SH47I, SH47J, 
+                      HV209, HV210, HV211, HV212, HV221, HV243A, HV243B, SH47B, SH47E, 
+                      SH47D, SH47F, SH47G, SH47N, SH47U, HV226, HV213, HV214, HV215, SH56A,
+                      SH56B, SH56C, SH56D, HV216, SH58, HV247, HV225, HV242, 
+                      HV025, HV026, SH025, HV270)
+
+# reorder the WI factor variable
+householdWI$HV270 <- factor(householdWI$HV270, 
+                            levels = c("Richest", "Richer", "Middle", "Poorer", "Poorest"))
+
+#create a new dataset without missing data
+householdWI <- na.omit(householdWI)
+```
+
+#### Feature engineering
+
+There are about 40 variables that pertain to household characteristics indicating wealth.  Some of these, like the type of water supply or floor material, have many (up to 20) levels, although the majority have only two levels.  We need to bin these to 2-3 levels, for better performance with the clustering algorithm.  Also, one variable (number of rooms for sleeping) is numeric, and will be centered and scaled.  
+
+For the variables with many levels, we find guidance in the NFHS factsheets.  For example, there drinking water supply is binned into "improved source" and "un-improved source".  So our binning follows these NFHS classifications when possible.
+
+The number of clusters to use for each subpopulation was determined by Sai earlier.  For each subpopulation, we try both a Euclidean metric and a cosine distance metric.
+
+
+```{r}
+# FEATURE ENGINEERING
+
+# 1. Convert many-level factor variables into 2-level factor variables
+
+# HV201: source of drinking water
+# definition of 'improved water source' is contained in footnotes of state factsheets
+improved_source <- c("Piped into dwelling", "Piped to yard/plot",
+                     "Protected well", "Public tap/standpipe",
+                     "Tube well or borehole", "Bottled water")
+householdWI$HV201_improved <- as.factor(householdWI$HV201 %in% improved_source)
+
+# HV202:source of non-drinking water
+householdWI$HV202_improved <- as.factor(householdWI$HV202 %in% improved_source)
+
+# HV205: type of toilet facility
+# definition of 'improved sanitation' in factsheet footnotes (can't share toilet)
+improved_sanitation <- c("Flush to piped sewer system", "Flush to septic tank",
+                         "Flush to pit latrine", "Ventilated Improved Pit latrine (VIP)",
+                         "Pit latrine with slab", "Composting toilet")
+householdWI$HV205_improved <- FALSE
+householdWI$HV205_improved[(householdWI$HV205 %in% improved_sanitation) & (householdWI$HV225 == "No")] <- TRUE
+householdWI$HV205_improved <- as.factor(householdWI$HV205_improved)
+
+# HV226:type of cooking fuel
+clean_fuel <- c("Electricity", "LPG, natural gas", "biogas")
+householdWI$HV226_clean <- as.factor(householdWI$HV226 %in% clean_fuel)
+
+# HV213: main floor material
+improved_floor <- c("Brick", "Cement", "Ceramic tiles", "Parquet, polished wood",
+                    "Polished stone/marble/granite", "Stone", "Vinyl, asphalt strips")
+householdWI$HV213_improved <- as.factor(householdWI$HV213 %in% improved_floor)
+
+# HV214: main exterior wall material
+improved_wall <- c("Cement blocks", "Cement/concrete", "Stone with lime/cement",
+                   "Burnt bricks")
+householdWI$HV214_improved <- as.factor(householdWI$HV214 %in% improved_wall)
+
+# HV215: main roof material
+improved_roof <- c("Burnt brick", "RCC/RBC/cement/concrete", "Roofing shingles",
+                   "Tiles")
+householdWI$HV215_improved <- as.factor(householdWI$HV215 %in% improved_roof)
+
+householdWI <- subset(householdWI, select = -c(HV201, HV202, HV205, HV226,
+                                               HV213, HV214, HV215))
+
+# 2. Convert to numerics for cluster algorithm
+
+# for factor variables:
+# not clear if better to one-hot encode, 
+# or give a somewhat unintelligent numeric scale
+# since almost all are 2-level, probably doesn't matter much
+
+# function to one-hot encode factor variables
+one_hot <- function(df){
+  as.data.frame(model.matrix(~., data = df))[,-1]
+}
+
+# OR
+# function to convert factor variable to numeric
+factors_to_numerics <- function(df){
+  for (i in 1:ncol(df))
+    if (is.factor(df[,i]))
+      df[,i] <- as.numeric(df[,i])-1
+  df
+}
+
+# function to scale numeric columns to mean=0, sd=1
+# (at the moment only HV216 is numeric -- number of rooms used for sleeping)
+scale_numerics <- function(df){
+  for (i in 1:ncol(df))
+    if (!is.factor(df[,i]))
+      df[,i] <- scale(as.numeric(df[,i]))
+  df
+}
+
+householdWI <- scale_numerics(householdWI)
+# (do one-hot or other encoding after subsetting)
+```
+
+
+
+```{r}
+# SUBSETTING THE DATA
+
+# ...based on Sai's code...(but including HV270 - the wealth index - temporarily)
+
+#Rural household subset
+Rural <- subset(householdWI, HV025 == 'Rural')
+
+#Urban household subset
+Urban <- subset(householdWI, HV025 == 'Urban')
+
+#Mega city household subset
+MCity <- subset(householdWI, SH025 == 'Mega city')
+
+#MAke a subset for all urban areas excluding mega cities
+OUrban <- subset(householdWI, HV025 == 'Urban' & SH025 != 'Mega city')
+
+# pull out wealth index column  
+Urban_WI = Urban$HV270
+Rural_WI = Rural$HV270
+MCity_WI = MCity$HV270
+OUrban_WI = OUrban$HV270
+
+#Now delete HV025, HV026 and SH025 from all these subsets. also HV270.
+MCity <- subset(MCity, select = -c(HV025, HV026, SH025, HV270))
+Urban <- subset(Urban, select = -c(HV025, HV026, SH025, HV270))
+Rural <- subset(Rural, select = -c(HV025, HV026, SH025, HV270))
+OUrban <- subset(OUrban, select = -c(HV025, HV026, SH025, HV270))
+householdWI <- subset(householdWI, select = -c(HV025, HV026, SH025, HV270))
+```
+
+
+```{r}
+# GENERATE CLUSTERS
+
+clusterU <- kmeans(one_hot(Urban), centers = 4, iter.max=1000)
+
+# use something like the below to do cosine metric. but this took
+# too long and i didn't feel like figuring out how to make it faster.
+#clusterU <- akmeans(one_hot(Urban), d.metric = 2, iter.max=1000)
+
+clusterR <- kmeans(one_hot(Rural), centers = 3, iter.max=1000)
+
+clusterOU <- kmeans(one_hot(OUrban), centers = 5, iter.max=1000)
+
+clusterMC <- kmeans(one_hot(MCity), centers = 5, iter.max=1000)
+```
+
+
+```{r}
+# function definitions for plots and outputs
+
+# function to output heatmap comparing clusters and NFHS WI
+plot_heatmap <- function(df_WI, clustering){
+  d <- as.data.frame(table(df_WI, clustering))
+  names(d)[3] = "Frequency"
+  ggplot(data = d, aes(x = clustering, y = df_WI)) + 
+    geom_tile(aes(fill = Frequency)) +
+    labs(title = "Clusters versus NFHS Wealth Index") +
+    labs(x = "Cluster") +
+    labs(y = "NFHS Wealth Index")  
+}
+
+# function to output table comparing clusters and NFHS WI
+output_table <- function(df_WI, clustering){
+  table(df_WI, clustering)
+}
+
+# function to plot a scaled stacked barchart from a subpop and clustering
+plot_scaled_barchart <- function(df_subpop, clustering, variable, ttl){
+  c <- data.frame(cluster = clustering)
+  g <- ggplot(data = cbind(df_subpop, c), aes(cluster)) + 
+    coord_flip() + theme_minimal()
+  g + geom_bar(aes_string(fill = variable), position="fill") +
+    labs(title = ttl)
+}
+```
+
+### Rural
+
+If we cluster the rural subpopulation with k=3, we get the following frequency heatmap (with values below, annoyingly sorted differently).
+
+```{r}
+df_WI <- Rural_WI
+df <- Rural
+clustering <- clusterR$cluster
+
+plot_heatmap(df_WI, clustering)
+output_table(df_WI, clustering)
+```
+
+#### Key variable distributions in different Rural clusters
+
+```{r}
+plot_scaled_barchart(df, clustering, "HV206", "Electricity usage")
+plot_scaled_barchart(df, clustering, "HV205_improved", "Access to improved sanitation")
+plot_scaled_barchart(df, clustering, "HV201_improved", "Access to improved drinking water")
+plot_scaled_barchart(df, clustering, "HV226_clean", "Clean cooking fuel usage")
+```
+
+This rural clustering does seem to capture three different groups well, based on the distributions of these four important variables.  The three clusters also seem consistent with the 5-level wealth index variable.
+
+### Mega-cities
+
+If we cluster the mega-cities subpopulation with k=5, we get the following frequency heatmap (with values below, annoyingly sorted differently).
+
+Here we can certainly see some of the bias in using one wealth index for all of India.  The vast majority of people living in mega-cities have been classified as either Richer or Richest.  We suspect this is mostly due to the more prevalent infrastructure and resources in a city, e.g. with plumbing and sewage.  This is confirmed by looking at the criteria used to construct the NFHS wealth index.
+
+Although it is hard to tell for sure from the distribution of the four variables we look at, it is possible that our clustering is picking up a more meaningful classification of these mega-city dwellers.
+
+```{r}
+df_WI <- MCity_WI
+df <- MCity
+clustering <- clusterMC$cluster
+
+plot_heatmap(df_WI, clustering)
+output_table(df_WI, clustering)
+```
+
+#### Key variable distributions in different Mega-city clusters
+
+```{r}
+plot_scaled_barchart(df, clustering, "HV206", "Electricity usage")
+plot_scaled_barchart(df, clustering, "HV205_improved", "Access to improved sanitation")
+plot_scaled_barchart(df, clustering, "HV201_improved", "Access to improved drinking water")
+plot_scaled_barchart(df, clustering, "HV226_clean", "Clean cooking fuel usage")
+```
+
+
+### Urban
+
+If we cluster the urban subpopulation with k=4, we get the following frequency heatmap (with values below, annoyingly sorted differently).
+
+```{r}
+plot_heatmap(Urban_WI, clusterU$cluster)
+output_table(Urban_WI, clusterU$cluster)
+```
+
+#### Key variable distributions in different Urban clusters
+
+```{r}
+plot_scaled_barchart(Urban, clusterU$cluster, "HV206", "Electricity usage")
+plot_scaled_barchart(Urban, clusterU$cluster, "HV205_improved", "Access to improved sanitation")
+plot_scaled_barchart(Urban, clusterU$cluster, "HV201_improved", "Access to improved drinking water")
+plot_scaled_barchart(Urban, clusterU$cluster, "HV226_clean", "Clean cooking fuel usage")
+```
+
+
+### Urban excluding mega-cities
+
+If we separate urban from mega-cities, and cluster this subpopulation with k=5, we get the following frequency heatmap (with values below, annoyingly sorted differently).
+
+```{r}
+df_WI <- OUrban_WI
+df <- OUrban
+clustering <- clusterOU$cluster
+
+plot_heatmap(df_WI, clustering)
+output_table(df_WI, clustering)
+```
+
+#### Key variable distributions in different clusters
+
+```{r}
+plot_scaled_barchart(df, clustering, "HV206", "Electricity usage")
+plot_scaled_barchart(df, clustering, "HV205_improved", "Access to improved sanitation")
+plot_scaled_barchart(df, clustering, "HV201_improved", "Access to improved drinking water")
+plot_scaled_barchart(df, clustering, "HV226_clean", "Clean cooking fuel usage")
+```
+
+

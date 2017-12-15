@@ -57,3 +57,5 @@ The **NFHS-3**, conducted 2005-2006, is [available in full](http://www.dhsprogra
 - [Volatile Sex Ratio](http://stories.visualist.in/): a nice web report looking at change in each Indian state's sex ratio between NFHS-3 and NFHS-4. (@fibinse)
 
 - [NFHS-4 Chloropleth maps](https://github.com/Data4Democracy/india-nfhs/tree/master/nfhs4-chloropleths/): district-level chloropleth maps of several important variables from the NFHS-4. (@preet)
+
+- [Clustering_by_residence_type.html](https://data4democracy.github.io/india-nfhs/nfhs3-wealth-index-analysis/Clustering_by_residence_type.html): cluster analysis of separate geographic regions, looking at access to electricity, clean water, improved sanitation, and clean cooking fuel. (@lukewolcott, @sai, @preet)
